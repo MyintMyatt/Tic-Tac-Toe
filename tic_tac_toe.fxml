@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="789.0" prefWidth="754.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tic_tac_toe.TicTacToe">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="688.0" prefWidth="600.0" stylesheets="@style.css">
+         <children>
+            <Button fx:id="btn0" layoutX="50.0" layoutY="130.0" mnemonicParsing="false" onAction="#btn0Action" prefHeight="151.0" prefWidth="168.0" styleClass="btn1">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" layoutX="50.0" layoutY="281.0" maxHeight="151.0" minHeight="151.0" mnemonicParsing="false" onAction="#btn3Action" prefHeight="151.0" prefWidth="168.0" styleClass="btn4">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn1" layoutX="218.0" layoutY="130.0" mnemonicParsing="false" onAction="#btn1Action" prefHeight="151.0" prefWidth="168.0" styleClass="btn2">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" layoutX="218.0" layoutY="281.0" mnemonicParsing="false" onAction="#btn4Action" prefHeight="151.0" prefWidth="168.0" styleClass="btn5">
+               <font>
+                  <Font size="74.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" layoutX="386.0" layoutY="130.0" mnemonicParsing="false" onAction="#btn2Action" prefHeight="151.0" prefWidth="168.0" styleClass="btn3">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn5" layoutX="386.0" layoutY="281.0" mnemonicParsing="false" onAction="#btn5Action" prefHeight="127.0" prefWidth="168.0" styleClass="btn6">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn6" layoutX="50.0" layoutY="432.0" mnemonicParsing="false" onAction="#btn6Action" prefHeight="127.0" prefWidth="168.0" styleClass="btn7">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn7" layoutX="218.0" layoutY="432.0" mnemonicParsing="false" onAction="#btn7Action" prefHeight="127.0" prefWidth="168.0" styleClass="btn8">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn8" layoutX="386.0" layoutY="432.0" mnemonicParsing="false" onAction="#btn8Action" prefHeight="127.0" prefWidth="168.0" styleClass="btn9">
+               <font>
+                  <Font size="75.0" />
+               </font>
+            </Button>
+            <Button fx:id="restart" layoutY="647.0" mnemonicParsing="false" onAction="#restart" prefHeight="41.0" prefWidth="600.0" styleClass="restart" text="Restart" />
+            <Label alignment="CENTER" layoutX="77.0" layoutY="17.0" prefHeight="33.0" prefWidth="175.0" text="Player 1 - O">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="322.0" layoutY="17.0" prefHeight="33.0" prefWidth="175.0" text="Player 2 - X">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="label" alignment="CENTER" layoutX="154.0" layoutY="66.0" prefHeight="47.0" prefWidth="278.0" style="-fx-font-style: italic; -fx-font-size: 35px; -fx-font-family: monospace; -fx-text-fill: #fff;">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Line fx:id="line3" endX="386.0" layoutX="150.0" layoutY="206.0" startX="-100.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+            <Line fx:id="line4" endX="386.0" layoutX="150.0" layoutY="357.0" startX="-100.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+            <Line fx:id="line5" endX="386.0" layoutX="159.0" layoutY="505.0" startX="-109.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+            <Line fx:id="line1" endX="378.0" endY="387.0" layoutX="159.0" layoutY="181.0" startX="-96.0" startY="-39.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+            <Line fx:id="line2" endX="374.0" endY="-65.0" layoutX="164.0" layoutY="207.0" startX="-97.0" startY="360.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+            <Line fx:id="line7" endX="27.0" endY="17.0" layoutX="273.0" layoutY="568.0" startX="27.0" startY="-438.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+            <Line fx:id="line8" endX="27.0" endY="17.0" layoutX="443.0" layoutY="566.0" startX="27.0" startY="-438.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+            <Line fx:id="line6" endX="27.0" endY="17.0" layoutX="107.0" layoutY="574.0" startX="27.0" startY="-438.0" stroke="#086b24" strokeWidth="4.0" visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

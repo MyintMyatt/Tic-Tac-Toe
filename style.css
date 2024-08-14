@@ -1,0 +1,65 @@
+.root{
+    -fx-background-color : #000000;
+}
+.label {
+    -fx-text-fill : red;
+}
+.btn1{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 0 5px 5px 0;
+}
+.btn2{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 0 5px 5px 5px;
+}
+.btn3{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 0 0 5px 5px;
+}
+.btn4{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 5px 5px 5px 0;
+}
+.btn5{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 5px 5px 5px 5px;
+}
+.btn6{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 5px 0 5px 5px;
+}
+.btn7{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 5px 5px 0 0;
+}
+.btn8{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 5px 5px 0 5px;
+}
+.btn9{
+    -fx-background-color:transparent;
+    -fx-text-fill : #fff;
+    -fx-border-color : #002535;
+    -fx-border-width : 5px 0 0 5px;
+}
+.restart{
+    -fx-background-color : #17706e;
+    -fx-text-fill: #fff;
+    -fx-font-size : 20px;
+}
