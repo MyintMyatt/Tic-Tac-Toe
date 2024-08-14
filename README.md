@@ -1,0 +1,1 @@
+A classic Tic Tac Toe game developed in Java, JavaFX, FXML and CSS . This project allows two players to play against each other on a 3x3 grid. The game checks for a winner after each move and announces the result. The simple design focuses on functionality and gameplay.
